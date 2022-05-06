@@ -1,0 +1,135 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/background2.webp");
+}
+
+
+
+#soccerField{
+    position: relative !important;
+    max-width: 900px;
+    width: 100%;
+    max-height: 600px;
+    height: auto;
+    margin: 0 auto;
+    border: 0px solid black;
+
+   
+}
+
+#field{
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 600px;
+    
+}
+
+.playerImg{
+    width: 10%;
+    max-width: 75px;
+    height: auto;
+    margin: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0px solid black;
+    
+    
+}
+
+.playerImg:hover{
+    animation: bounce 0.5s linear;
+}
+
+@keyframes  bounce{
+    5%{
+        transform: translateY(-5px);
+    }
+}
+
+/* PLAYERS IN THE SOCCER FIELD */
+
+/* Positioning Goalkeeper*/
+#GK{
+    position: absolute !important;
+    bottom: 10%;
+    left: 45.7%;
+}
+/* Positioning Left Center Back*/
+#leftCB{
+    position: absolute !important;
+    bottom: 30%;
+    left: 25.4%;
+}
+/* Positioning Center Back*/
+#centerCB{
+    position: absolute !important;
+    bottom: 30%;
+    left: 45.7%;
+}
+/* Positioning Right Center Back*/
+#rightCB{
+    position: absolute !important;
+    bottom: 30%;
+    right: 25.4%;
+}
+
+/* Positioning Left Center Defensive Midfield*/
+#leftCDM{
+    position: absolute !important;
+    bottom: 50%;
+    left: 35%;
+}
+
+/* Positioning Right Center Defensive Midfield*/
+#rightCDM{
+    position: absolute !important;
+    bottom: 50%;
+    right: 35%;
+}
+
+/* Positioning Center Attacking Midfield*/
+#CAM{
+    position: absolute !important;
+    bottom: 65%;
+    left: 45.7%;
+}
+
+/* Positioning Left Midfield*/
+#LM{
+    position: absolute !important;
+    bottom: 65%;
+    left: 25%;
+}
+
+/* Positioning Right Midfield*/
+#RM{
+    position: absolute !important;
+    bottom: 65%;
+    right: 25%;
+}
+
+/* Positioning Left Striker*/
+#leftST{
+    position: absolute !important;
+    bottom: 80%;
+    left: 35%;
+}
+
+/* Positioning Right Striker*/
+#rightST{
+    position: absolute !important;
+    bottom: 80%;
+    right: 35%;
+}
+
+
+
+
+
+
+
+ 
