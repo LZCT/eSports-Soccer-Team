@@ -1,58 +1,28 @@
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 100px; /* 0 width - change this with JavaScript */
-
+    height: 100%; 
+    width: 100px; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    
+        
   }
   
-  /* The navigation menu links 
-  .sidenav a {
-    /* padding: 10px 25px 10px 25px; 
-    padding: 20% 25% 20% 25%;
-    margin: 0 auto;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }*/
-
   
+/* Style page content - push the page content to the right to not be covered by the side navigation */
+#main {
+  padding: 20px;
+  margin-left: 100px;
+  text-align: center;
+}
   
-  /* When you mouse over the navigation links, change their color 
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }*/
-  
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    /*transition: margin-left .5s;*/
-    padding: 20px;
-    margin-left: 100px;
-  }
-  
-
-
-#teamLogo{
-    /*padding: 0px 5px 100px 25px; 
-    padding-left: 20px;
-    padding-right: 5px;*/
-    
+#teamLogo{  
     width: 100%;
     max-width: 70px;
-    height: auto;
-    
-    
+    height: auto;  
  }
 
 .menuIcon{
@@ -76,7 +46,6 @@
 .menuItem:hover{
   background-color: red;
 }
-
 
 /*
 #homeIcon:hover{

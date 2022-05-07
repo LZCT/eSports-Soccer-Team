@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Warriors</title>
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
 
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="navbar.css" media="screen" />
     <!--Bootstrap-->
@@ -13,107 +24,135 @@
 </head>
 
 <body>
-<!--
-    <h1>Black Warriors</h1>
 
-    <h2>ELENCO<br>
-        GOLEIRO:<br>
-        <br>
-        45) Severus <br>
-        77) BWR Smaller <br>
-        <br>
-        DEFENSORES:<br>
-        <br>
-        22) BWR Gomez <br>
-        02) BWR Lino <br>
-       
-    </h2>
-    -->
     
     
-
+    <!--SIDEBAR MENU-->
     <div id="mySidenav" class="sidenav">
+        <!--Team Logo Icon-->
         <div class="menuItem logoItem">
             <img src="img/TeamLogo80px.png" id="teamLogo">
         </div>
-
+        <!--Home Page Link-->
         <a href="#">
         <div class="menuItem" id="homeIcon">
             <img src="img/icons/homeIcon.png" class="menuIcon">
         </div>
         </a>
-
+        <!--Lineup Page Link-->
         <a href="#">
         <div class="menuItem" id="lineupIcon">
            <img src="img/icons/lineupIcon.png" class="menuIcon" >
         </div>
         </a>
-
+        <!--Trophy Room Page Link-->
         <a href="#">
         <div class="menuItem" id="trophyIcon">
             <img src="img/icons/trophyIcon.png" class="menuIcon" >
         </div>
         </a>
-
+        <!--Contact Page Link-->
         <a href="#">
         <div class="menuItem" id="contactIcon">
             <img src="img/icons/contactIcon.png" class="menuIcon" >
         </div>
         </a>
-
+        <!--Web Designer Link -->
         <div class="menuItem logoItem">
             <img src="img/LZCT_100px.png" id="teamLogo">
         </div>
-        <!--
-        
-        <a href="#"><img src="img/icons/menuIcon.png" class="menuIcon"><br></a>
-        <a href="#"><img src="img/icons/homeIcon.png" class="menuIcon"></a>
-        <a href="#"><img src="img/icons/lineupIcon.png" class="menuIcon"></a>
-        <a href="#"><img src="img/icons/trophyIcon.png" class="menuIcon"></a>
-        <a href="#"><img src="img/icons/contactIcon.png" class="menuIcon"></a>-->
-        
     </div>
 
+
+    <!--MAIN-->
     <div id="main">
-
-    
-        <div id="soccerField">
-            <!--Image Soccer Field
-            <img src="img/soccerField.png" id="field">-->
-
-            <img src="img/TemplateField.png" id="field" >
-
-            <!---------------PLAYERS--------------->
-            <!--Image Goalkeeper-->
         
-            <img src="img/players/GK.png" id="GK" class="playerImg">
+        <div id="lineUp">
             
-            
-            <!--Image Left Center Back-->
-            <img src="img/players/LeftCB.png" id="leftCB" class="playerImg">
-            <!--Image Center Back-->
-            <img src="img/players/CenterCB.png" id="centerCB" class="playerImg">
-            <!--Image Right Center Back-->
-            <img src="img/players/RightCB.png" id="rightCB" class="playerImg">
-            <!--Image Left Center Defensive Midfield-->
-            <img src="img/players/LeftCDM.png" id="leftCDM" class="playerImg">
-            <!--Image Right Center Defensive Midfield-->
-            <img src="img/players/RightCDM.png" id="rightCDM" class="playerImg">
-            <!--Image Center Attacking Midfield-->
-            <img src="img/players/CAM.png" id="CAM" class="playerImg">
-            <!--Image Left Midfield-->
-            <img src="img/players/LM.png" id="LM" class="playerImg">
-            <!--Image Right Midfield-->
-            <img src="img/players/RM.png" id="RM" class="playerImg">
-            <!--Image Left Striker-->
-            <img src="img/players/LeftST.png" id="leftST" class="playerImg">
-            <!--Image Right Midfield-->
-            <img src="img/players/RightST.png" id="rightST" class="playerImg">
-        
-            
-            
-        </div>
+            <div id="players">
+                <h1>Line-up</h1>
+                <ul class="list-group">
+                    <span>GOALKEPPER</span>
+                    <li>45 Severus</li>
+                    <br>
+                    <span>CENTERBACKS</span>
+                    <li>22 Gomez</li>
+                    <li>02 Lino</li>
+                    <li>88 Romera</li>
+                    <br>
+                    <span>MIDFIELDERS</span>
+                    <li>8 Hender</li>
+                    <li>7 Checho</li>
+                    <li>11 Laand</li>
+                    <li>14 LZCT</li>
+                    <li>12 Symeon</li>
+                    <br>
+                    <span>STRIKERS</span>
+                    <li>9 Sanches</li>
+                    <li>24 Zan</li>
 
+                </ul>
+                
+                <h1>Substitutes</h1>
+                <ul class="list-group">
+                    <li>77 Smaller</li>
+                    <li>5 Hunter</li>
+                    <li>10 Garethzin</li>
+
+                </ul>
+                
+                
+            </div>
+        
+            <div id="soccerColumn">
+                <h1>Black Warriors</h1>
+                <div id="soccerField">
+                    
+                    <!--Soccer Field Image-->
+                    <img src="img/SoccerField.png" id="field" >
+
+                    <!---------------PLAYERS--------------->
+                    <!--Image Goalkeeper-->
+                    <img src="img/players/GK.png" id="GK" class="playerImg">
+                    <!--Image Left Back-->
+                    <img src="img/players/LB.png" id="LB" class="playerImg">
+                    <!--Image Center Back-->
+                    <img src="img/players/CB.png" id="CB" class="playerImg">
+                    <!--Image Right Back-->
+                    <img src="img/players/RB.png" id="RB" class="playerImg">
+                    <!--Image (Left) Center Defensive Midfield-->
+                    <img src="img/players/LeftCDM.png" id="leftCDM" class="playerImg">
+                    <!--Image (Right) Center Defensive Midfield-->
+                    <img src="img/players/RightCDM.png" id="rightCDM" class="playerImg">
+                    <!--Image Center Attacking Midfield-->
+                    <img src="img/players/CAM.png" id="CAM" class="playerImg">
+                    <!--Image Left Midfield-->
+                    <img src="img/players/LM.png" id="LM" class="playerImg">
+                    <!--Image Right Midfield-->
+                    <img src="img/players/RM.png" id="RM" class="playerImg">
+                    <!--Image Left Striker-->
+                    <img src="img/players/LeftST.png" id="leftST" class="playerImg">
+                    <!--Image Right Midfield-->
+                    <img src="img/players/RightST.png" id="rightST" class="playerImg">
+                
+                </div>
+
+                <div>
+                    <h1>Bench</h1>
+                    <!--Image Substitute One-->
+                    <img src="img/players/Sub1.png" class="playerImg">
+                    <!--Image Substitute Two-->
+                    <img src="img/players/Sub2.png" class="playerImg">
+                    <!--Image Substitute Three-->
+                    <img src="img/players/Sub3.png" class="playerImg">
+                </div>
+                
+            </div>
+            
+        </div>   
+        
+        
+        
     </div>
     
     

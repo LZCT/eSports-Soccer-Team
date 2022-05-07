@@ -5,28 +5,14 @@ html,body{
     background-image: url("img/background2.webp");
 }
 
-
-
-#soccerField{
-    position: relative !important;
-    max-width: 900px;
-    width: 100%;
-    max-height: 600px;
-    height: auto;
-    margin: 0 auto;
-    border: 0px solid black;
-
-   
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
 }
 
-#field{
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    max-height: 600px;
-    
-}
+
+
+
 
 .playerImg{
     width: 10%;
@@ -36,7 +22,6 @@ html,body{
     border-radius: 50%;
     cursor: pointer;
     border: 0px solid black;
-    
     
 }
 
@@ -59,19 +44,19 @@ html,body{
     left: 45.7%;
 }
 /* Positioning Left Center Back*/
-#leftCB{
+#LB{
     position: absolute !important;
     bottom: 30%;
     left: 25.4%;
 }
 /* Positioning Center Back*/
-#centerCB{
+#CB{
     position: absolute !important;
     bottom: 30%;
     left: 45.7%;
 }
 /* Positioning Right Center Back*/
-#rightCB{
+#RB{
     position: absolute !important;
     bottom: 30%;
     right: 25.4%;
@@ -127,9 +112,68 @@ html,body{
 }
 
 
+#main{
+    height: 100vh;
+}
+
+#lineUp{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) repeat( auto-fit, minmax(200px, 1fr) );
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 
 
+/*DIV WITH THE SOCCER FIELD IMAGE*/
+#soccerField{
+    position: relative !important;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 600px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+
+}
+
+/*SOCCER FIELD IMAGE*/
+#field{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 600px;
+}
+
+#players{
+    text-align: center;   
+    margin: 0 auto;
+    
+}
 
 
- 
+ul{
+    padding-left: 0px;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: 50;
+    
+}
+
+
+li{
+    border-radius: 50%;
+    
+}
+li:hover{
+    background-color: red;
+}
+
+span{
+    color: red;
+}
