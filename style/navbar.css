@@ -1,0 +1,55 @@
+/* The side navigation menu */
+.sidenav{
+    height: 100%; 
+    width: 100px; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */   
+}
+  
+  
+/* Style page content - push the page content to the right to not be covered by the side navigation */
+#main{
+    padding: 0px 20px 0px 20px;
+    margin-left: 100px;
+    height: 100%;
+    text-align: center;   
+}
+  
+#teamLogo{  
+    width: 100%;
+    max-width: 70px;
+    height: auto;  
+}
+
+.menuIcon{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.menuItem{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 0px solid pink;
+}
+
+.menuItem:hover{
+    background-color: red;
+}
+
+.logoItem{
+    height: 20%;
+}
+
+.logoItem:hover{
+    background-color: #111;
+}

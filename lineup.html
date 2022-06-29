@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="lineUp.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="navbar.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style/lineUp.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style/navbar.css" media="screen" />
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -51,62 +51,29 @@
             <img src="img/icons/trophyIcon.png" class="menuIcon" >
         </div>
         </a>
-        <!--Contact Page Link-->
-        <a href="contact.html">
-        <div class="menuItem" id="contactIcon">
-            <img src="img/icons/contactIcon.png" class="menuIcon" >
-        </div>
+        <!--Calendar Page Link-->
+        <a href="calendar.html">
+            <div class="menuItem" id="calendarIcon">
+                <img src="img/icons/calendarIcon.png" class="menuIcon" >
+            </div>
         </a>
-        <!--Web Designer Link 
-        <div class="menuItem logoItem">
-            <img src="img/LZCT_100px.png" id="teamLogo">
-        </div>-->
     </div>
 
 
     <!--MAIN-->
     <div id="main">
-       
+        
+
         <div id="lineUp">
             
-            <div class="players">
-                <h1>Line-up</h1>
-                <ul class="list-group">
-                    <span>GOALKEPPER</span>
-                    <li id="GK_name">45 Joel Hotzz</li>
-                    <br>
-                    <span>CENTERBACKS</span>
-                    <li id="LB_name">22 Levih Gomez</li>
-                    <li>40 Lucas Romera</li>
-                    <li>5 Giuliano Silva</li>
-                    
-                    <br>
-                    <span>MIDFIELDERS</span>
-                    <li>23 Daniel Cruz</li>
-                    <li>8 Pedro Vinícius</li>
-                    <li>10 Sergio Lobatón</li>
-                    <li>14 Leonardo Iglesias</li>
-                    <li>15 Leo Reis</li>
-                    
-                    <br>
-                    <span>STRIKERS</span>
-                    <li>9 Ricardo Crivellari</li>
-                    <li>7 Alef Donizete</li>
-                    
-
-                </ul>
-                
-            </div>
-
-        
             <div id="soccerColumn">
+
                 <h1>Black Warriors F.C.</h1>
                 <h1>3-5-2</h1>
+
                 <div id="soccerField">
-                    
                     <!--Soccer Field Image-->
                     <img src="img/SoccerField.png" id="field" >
-
                     <!---------------PLAYERS--------------->
                     <!--Image Goalkeeper-->
                     <img src="img/players/GK.png" id="GK" class="playerImg">
@@ -130,8 +97,6 @@
                     <img src="img/players/LeftST.png" id="leftST" class="playerImg">
                     <!--Image (Right) Striker-->
                     <img src="img/players/RightST.png" id="rightST" class="playerImg">
-                    
-                
                 </div>
 
                 <div>
@@ -156,35 +121,63 @@
                     <img src="img/players/Sub_ST1.png" class="playerImg">
                     <!--Image Substitute Striker-->
                     <img src="img/players/Sub_ST2.png" class="playerImg">
-                  
-                   
                 </div>
                 
             </div>
 
             <div class="players">
-                <h1>Substitutes</h1>
-                <ul class="list-group">
-                    <span>GOALKEPPER</span>
-                    <li>77 Lucas Nunes</li>
-                    <br>
-                    <span>CENTERBACKS</span>
-                    <li>3 Ruan Pinho</li>
-                    <li>13 Gustavo Machado</li>
-                    <li>4 Joaquín Garcia</li>
+                <div class="Squad" id="Squad">
+                    <h1>Line-up</h1>
+                    <ul class="list-group">
+                        <span>GOALKEPPER</span>
+                        <li id="GK_name">45 Joel Hotz</li>
+                        <br>
+                        <span>CENTERBACKS</span>
+                        <li id="LB_name">22 Levih Gomez</li>
+                        <li>40 Lucas Romera</li>
+                        <li>5 Giuliano Silva</li>
+                        
+                        <br>
+                        <span>MIDFIELDERS</span>
+                        <li>23 Daniel Cruz</li>
+                        <li>8 Pedro Vinícius</li>
+                        <li>10 Sergio Lobatón</li>
+                        <li>14 Leonardo Reis</li>
+                        <li>15 Léo dos Santos</li>
+                        
+                        <br>
+                        <span>STRIKERS</span>
+                        <li>9 Ricardo Crivellari</li>
+                        <li>7 Alef Donizete</li>
+                        <br>
+                    </ul>
+                </div>
                     
-                    <br>
-                    <span>MIDFIELDERS</span>
-                    <li>6 Rafael Souza</li>
-                    <li>25 Maycon Freitas</li>
-                    <li>11 Jayme Cano</li>
-                    <li>60 Antonio Marcos</li>
+                
+                <div class="Squad" id="Substitutes">
+                <h1>Substitutes</h1>
+                    <ul class="list-group">
+                        <span>GOALKEPPER</span>
+                        <li>77 Lucas Nunes</li>
+                        <br>
+                        <span>CENTERBACKS</span>
+                        <li>3 Ruan Pinho</li>
+                        <li>13 Gustavo Machado</li>
+                        <li>4 Joaquín Garcia</li>
+                        
+                        <br>
+                        <span>MIDFIELDERS</span>
+                        <li>6 Rafael Souza</li>
+                        <li>25 Maycon Freitas</li>
+                        <li>11 Jayme Cano</li>
+                        <li>60 Antonio Marcos</li>
 
-                    <br>
-                    <span>STRIKERS</span>
-                    <li>99 Guilherme Sanches</li>
-                    <li>30 Gabriel Junior</li>
-                </ul>
+                        <br>
+                        <span>STRIKERS</span>
+                        <li>99 Guilherme Sanches</li>
+                        <li>30 Gabriel Junior</li>
+                    </ul>
+                </div>
             </div>
             
         </div>   

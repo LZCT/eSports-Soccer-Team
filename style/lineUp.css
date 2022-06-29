@@ -2,17 +2,16 @@
 html,body{
     margin: 0;
     padding: 0;
-    background-image: url("img/background2.webp");
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 100%;
 }
+
 
 h1{
     font-family: 'Permanent Marker', cursive;
     color: white;
 }
-
-
-
-
 
 .playerImg{
     width: 10%;
@@ -127,11 +126,9 @@ img {
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    
+    min-height: 100%;
+    margin: 0 auto;    
 }
-
 
 
 /*DIV WITH THE SOCCER FIELD IMAGE*/
@@ -155,13 +152,24 @@ img {
 }
 
 .players{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
     text-align: center;   
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 5%;
+    width: 600px;
+    gap: 20px;
+    
+    
 }
 
+.Squad{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    border-radius: 5%;
+}
 
 
 ul{
