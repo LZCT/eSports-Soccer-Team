@@ -1,0 +1,80 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nextMatch{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    border-radius: 5%;
+    align-self: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: x-large;
+}
+
+#homeTeamLogo{
+    width: 90px;
+}
+
+#awayTeamLogo{
+    width: 70px;
+}
+
+
+
+
+.flexSecondRow{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+.stats{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+
+.story{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+#teamLogoStory{
+    width: 100%;
+    max-width: 250px;
+}
+
+.chart{
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+        
+}
+

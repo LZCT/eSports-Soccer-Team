@@ -13,6 +13,7 @@ h1{
     color: white;
 }
 
+/*Default style for each player image*/
 .playerImg{
     width: 10%;
     max-width: 75px;
@@ -24,6 +25,7 @@ h1{
     
 }
 
+/*player image bounce effect on hover*/
 .playerImg:hover{
     animation: bounce 0.5s linear;
 }
@@ -120,7 +122,6 @@ img {
 /*LineUp section responsive*/
 #lineUp{
     display: flex;
-    /*grid-template-columns:  repeat( auto-fit, minmax(400px, 1fr) ) ;*/
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -139,7 +140,7 @@ img {
     height: auto;
     max-height: 600px;
     margin: 0 auto;
-    /*border: 2px solid red;*/
+    
 
 }
 
@@ -151,6 +152,7 @@ img {
     max-height: 600px;
 }
 
+/*Flex box DIV with players name*/
 .players{
     position: relative;
     display: flex;
@@ -164,14 +166,14 @@ img {
     
     
 }
-
+/*DIV with players name*/
 .Squad{
     background-color: rgba(0, 0, 0, 0.6);
     width: 50%;
     border-radius: 5%;
 }
 
-
+/*UL used for players name*/
 ul{
     padding-left: 0px;
     margin: 0;
@@ -182,29 +184,27 @@ ul{
     
 }
 
-
+/*LI used for each players name*/
 li{
     border-radius: 50%;
     
 }
 
+/*players name hover effect*/
 li:hover{
     background-color: red;
 }
 
+/*players position*/
 span{
     color: red;
 }
 
+/*DIV with the images of the players in the field*/
 #soccerColumn{
-   /* border: 2px solid blue;*/
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 5%;
 }
 
-
-#GK:hover + #GK_name{
-    background-color: red;
-}
 
